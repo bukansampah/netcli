@@ -2,7 +2,7 @@
 
 * telnet to JunOS
 
-    '''
+    ```
     earth:netcli rendo$ ./netcli.py --ipv4 192.168.1.27 --username admin --password password123 --protocol telnet --cmd "show version | no-more"
     [send->] show version | no-more
     show version | no-more
@@ -53,7 +53,7 @@
 
     admin@surabaya>
     earth:netcli rendo$
-    '''
+    ```
 
 
 * telnet to ios-xr
